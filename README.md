@@ -9,4 +9,4 @@ and place it in the same folder as other files available on github repo before r
 You can also see the dataset on which model was trained in the same drive folder named as "Dataset".
 
 To run the project, put all the files in github repo and model_weights.h5 in a folder and run the command : "streamlit run ./WebPage.py"
-- you might get some error regarding required libraries, make sure you have them installed on the PC
+- you might get some error regarding required libraries, make sure you have them installed on the PC(like: tensorflow, cv2, streamlit, numpy, etc.)
