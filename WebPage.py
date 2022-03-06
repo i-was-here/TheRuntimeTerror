@@ -47,8 +47,8 @@ def main():
         our_image = tensorflow.reshape(our_image, (1, 128, 128, 1))
         # result_img= loaded_model(our_image)
         result_img = loaded_model(our_image)
-        if float(result_img[0][1])>float(result_img[0][0]) : st.text("With Mask")
-        else : st.text("Without Mask")
+        if float(result_img[0][1])>float(result_img[0][0]) : st.text("Without Mask")
+        else : st.text("With Mask")
         # st.image(result_img)
 
 
