@@ -22,7 +22,7 @@ print("Loaded model from disk")
 def main():
     """Face Recognition App"""
 
-    st.title("Streamlit Tutorial")
+    st.title("THE RUNTIME TERROR")
 
     html_temp = """
     <body style="background-color:red;">
